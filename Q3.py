@@ -1,14 +1,25 @@
-print("\n\r")
-print("Hello")
-'''
 import math
 
-factor_list = []
-prime_list = []
+n = 600851475143
+d = 2
 
-for i in range(3, 600851475143):
-    if 600851475143%i == 0:
-        factor_list.append(int(i))
+def isprime(n):
+    a = False
+    for i in range(2, int(math.sqrt(n))):
+        if n % i == 0:
+            a = True
+            return False
+            break
+    if a == False:
+        return True
 
-print(factor_list)
-'''
+
+while True:
+    if n % d == 0:
+        print(d)
+
+        if isprime(int(n/d)) == True:
+            print("aaaa:",int(n/d))
+
+
+    d += 1
