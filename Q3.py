@@ -1,11 +1,14 @@
+print("\n\r")
+print("Hello")
+'''
 import math
 
-list = []
+factor_list = []
+prime_list = []
 
-for i in range(2, 600851475143):
-    n = 600851475143
-    print(n)
-    if n%i == 0:
-        n = n/i
-        list.append(i)
-print(list)
+for i in range(3, 600851475143):
+    if 600851475143%i == 0:
+        factor_list.append(int(i))
+
+print(factor_list)
+'''
