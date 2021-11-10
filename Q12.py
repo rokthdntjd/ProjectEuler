@@ -1,3 +1,36 @@
+n = 1
+An = 0
+
+def divisor_count(num):
+    global a
+    a = 0
+    for i in range(1, num):
+        if num % i == 0:
+            a += 1
+    return a
+
+while True:
+
+    An += n
+
+    divisor_count(An)
+
+    if a > 500:
+        print(An, n, a)
+        print(list)
+        break
+    print(An, n, a)
+    n += 1
+
+
+
+
+
+
+
+
+
+'''
 import math
 
 a = 12800
@@ -27,3 +60,4 @@ while True:
 
     print(a ,"|", n ,"|", c ,"|", max ,"|", maxa ,"|", maxn)
     a += 1
+'''
