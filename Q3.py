@@ -19,7 +19,8 @@ while True:
         print(d)
 
         if isprime(int(n/d)) == True:
-            print("aaaa:",int(n/d))
+            print(int(n/d))
+            break
 
 
     d += 1
