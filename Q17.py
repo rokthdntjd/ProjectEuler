@@ -82,7 +82,7 @@ for i in range(1, 1001):
                 list.append(int(4))
             if int(str(i)[-1]) == 3 or int(str(i)[-1]) == 7  or int(str(i)[-1]) == 8:
                 list.append(int(5))
-forgot to add the 0 cases :(
+#forgot to add the 0 cases :(
         if int(str(i)[1]) == 2 or int(str(i)[1]) == 3 or int(str(i)[1]) == 8 or int(str(i)[1]) == 9:
             list.append(int(6))
             if int(str(i)[-1]) == 1 or int(str(i)[-1]) == 2  or int(str(i)[-1]) == 6:
